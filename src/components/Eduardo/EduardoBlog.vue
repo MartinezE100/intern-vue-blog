@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-container fluid class="bg-image">
+        <v-container class="bg-image">
             <!-- Text Section: Introduction -->
             <v-row>
                 <v-col cols="4">
