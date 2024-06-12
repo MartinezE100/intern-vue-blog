@@ -1,5 +1,5 @@
 <template>
-    <EduardoBlog />
+    <EduardoPosts />
 </template>
 
 <script lang="ts" setup>
