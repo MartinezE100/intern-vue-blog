@@ -1,5 +1,5 @@
 <template>
-    <HomePage />
+    <EduardoBlog />
 </template>
 
 <script lang="ts" setup>
