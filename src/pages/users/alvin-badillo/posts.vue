@@ -1,5 +1,5 @@
 <template>
-    <HomePage />
+    <AlvinBlog />
 </template>
 
 <script lang="ts" setup>
