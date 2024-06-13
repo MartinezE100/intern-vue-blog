@@ -123,8 +123,4 @@ export default {
 .black-transparent {
     background-color: rgba(7, 4, 4, 0.5) !important;
 }
-
-.black-transparent .v-card-actions {
-    justify-content: center;
-}
 </style>
