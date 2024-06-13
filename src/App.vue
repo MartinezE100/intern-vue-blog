@@ -3,7 +3,7 @@
         <v-main>
             <TopBar />
             <router-view />
-            <FooterBar />
         </v-main>
+        <FooterBar />
     </v-app>
 </template>
