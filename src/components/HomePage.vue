@@ -14,7 +14,7 @@
                     <v-card-actions>
                         <!-- Button to view user's posts -->
                         <v-btn color="primary" @click="viewPosts(user)"
-                            >View {{ user.name }}'s Posts</v-btn
+                            >View {{ user.name }}'s Blog</v-btn
                         >
                     </v-card-actions>
                 </v-card>
@@ -53,7 +53,7 @@ export default {
             const formattedName = user.name.toLowerCase().replace(/\s+/g, "-");
 
             // Redirect to user's posts page
-            router.push(`/users/${formattedName}/posts`);
+            router.push(`/users/${formattedName}/`);
         };
 
         return { users, cardWidth, viewPosts };
