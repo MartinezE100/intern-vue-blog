@@ -6,7 +6,7 @@
             <!-- Main content area -->
             <div style="margin: 0 150px">
                 <!-- Add margin to the sides -->
-                <v-container fluid style="background-color: lightgray">
+                <v-container fluid style="background-color: gray">
                     <!-- Fluid container to stretch content -->
                     <v-row>
                         <!-- Row to contain columns -->
@@ -15,29 +15,97 @@
                             <!-- First Post -->
                             <v-card class="post-card">
                                 <!-- Title of the post -->
-                                <v-card-title>Post 1</v-card-title>
+                                <v-card-title>Week 1</v-card-title>
                                 <!-- Description of the post -->
-                                <v-card-text
-                                    >Description for Post 1</v-card-text
-                                >
-                                <!-- <img src="@/assets/logo.jpg" /> -->
+                                <v-card-text>Training Week!</v-card-text>
+
                                 <!-- Content of the post -->
                                 <v-card-text>
-                                    <p>This is the content for Post 1.</p>
+                                    During our first week, we embarked on a
+                                    journey of preparation, beginning with the
+                                    essential onboarding process. Our inaugural
+                                    day was dedicated to acquainting ourselves
+                                    with the team and familiarizing ourselves
+                                    with the office environment. We received our
+                                    badge IDs and were equipped with the
+                                    necessary tools, including our assigned
+                                    computers for the duration of the
+                                    internship.
+                                    <br /><br />
+                                    <!-- <img src="@/assets/alvin-badillo-picture.jpg" /> -->
+                                    <v-img
+                                        src="../assets/alvin-badillo-id.jpeg"
+                                        height="400"
+                                    ></v-img>
+                                    <br /><br />
+                                    Following the onboarding process, we delved
+                                    into an intensive training program to
+                                    sharpen our skills for the upcoming project.
+                                    Pluralsight served as our primary platform
+                                    for learning, providing a comprehensive
+                                    array of resources. The initial two days of
+                                    training were dedicated to Java, the
+                                    backbone of the project's backend.
+                                    Subsequently, we devoted the remaining two
+                                    days to mastering Vue, a crucial frontend
+                                    development tool pivotal to crafting the
+                                    user interface of our application.
+                                    <br /><br />
+                                    Recomendations: During the training
+                                    sessions, I found the content to be valuable
+                                    and necessary for our project preparation.
+                                    However, it's worth noting that some of the
+                                    resources provided were outdated. This posed
+                                    challenges as the technologies covered in
+                                    these resources were no longer operational
+                                    or up-to-date. As a result, it hindered our
+                                    ability to effectively follow along and
+                                    apply the concepts learned in real-world
+                                    scenarios.
                                 </v-card-text>
                             </v-card>
 
                             <!-- Second Post -->
                             <v-card class="post-card">
                                 <!-- Title of the post -->
-                                <v-card-title>Post 2</v-card-title>
+                                <v-card-title>Week 2</v-card-title>
                                 <!-- Description of the post -->
                                 <v-card-text
-                                    >Description for Post 2</v-card-text
+                                    >Practice and development of
+                                    demo</v-card-text
                                 >
                                 <!-- Content of the post -->
                                 <v-card-text>
-                                    <p>This is the content for Post 2.</p>
+                                    Entering the second week, we commenced with
+                                    our initial meeting alongside the team we'll
+                                    be collaborating with. The atmosphere was
+                                    incredibly welcoming, and everyone was
+                                    exceptionally helpful! This week, we'll
+                                    leverage our recently acquired expertise in
+                                    Vue.js to craft a demo illustrating the
+                                    potential appearance of the final product.
+                                    Our project entails developing the frontend
+                                    portion of an application named AppQuiz.
+                                    Thus, I've chosen to sketch a layout for the
+                                    "Quizzes" page, drawing inspiration from
+                                    Figma's documentation.
+                                    <br /><br />
+                                    <v-img
+                                        src="../assets/quizz-page-demo.png"
+                                        height="400"
+                                    ></v-img>
+                                    <br /><br />
+                                    This was done using vue, specifically
+                                    vuetify which is a great tool for frontend
+                                    development. I am happy with how this turned
+                                    out given the fact that it was the first
+                                    time that I've developed a web application
+                                    from scratch.
+                                    <br /><br />
+                                    After we finished the demo for QuizzApp, we
+                                    decided to build this beatiful blog so we
+                                    could documment our time here in Wovenware
+                                    as Software Developer Interns.
                                 </v-card-text>
                             </v-card>
                             <!-- Add more posts as needed -->
